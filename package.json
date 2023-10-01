@@ -1,0 +1,29 @@
+{
+  "name": "amqp-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/amqplib": "^0.10.2",
+    "@types/node": "^20.8.0",
+    "@types/nodemailer": "^6.4.11",
+    "eslint": "^8.0.1",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "nodemailer": "^6.9.5",
+    "zod": "^3.22.2"
+  }
+}

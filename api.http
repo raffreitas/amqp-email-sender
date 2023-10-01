@@ -1,0 +1,8 @@
+POST http://localhost:3333/api/mail/send
+Content-Type: application/json
+
+{
+  "recipientsMail": ["testando@email.teste", "teste@email.com"],
+  "subject": "Bem vindo",
+  "content": "<h1>Olá bem vindo</h1>"
+}
